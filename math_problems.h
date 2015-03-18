@@ -191,12 +191,6 @@ public:
         int hth2=orientation(b.getHead(),b.getTail(),line::head);
         int htt2=orientation(b.getHead(),b.getTail(),line::tail);
 
-        printf("hth1=%d\n",hth1);
-        printf("htt2=%d\n",htt1);
-        printf("hth2=%d\n",hth2);
-        printf("htt2=%d\n",htt2);
-
-
         if(hth1!=htt1 && hth2!=htt2){
             return true;
         }
